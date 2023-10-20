@@ -18,22 +18,42 @@ bot_info = data[1][0]
 
 def main():
     # Create a title for the chat interface
-    st.title("Full Harvst Bot (named Emily)")
+    st.title("Full Harvest Bot (named Emily)")
     st.write("To test, first select some fields then click the button below.")
   
 
-    name = 'Emily'
-    booking_link = 'fullharvest.com'
+    name = st.text_input('Bot Name', value = 'Harvey')
+    booking_link = st.text_input('Booking Link', value = 'fullharvestbookinglink.com')
+    buyer_or_supplier = st.selectbox('Buyer or Supplier', ['Buyer', 'Supplier'], index = 0)
     lead_first_name = st.text_input('Lead First Name', value = 'John')
+    buyer_company_name = st.text_input('Buyer Company Name', value = 'Appleseed Co')
+
+    options = ['Tomatoes', 'Blueberries', 'Garlic', 'Bananas', 'Onions']
+    selection = st.multiselect("Choose your options", options)
+
+    if len(selection) == 0:
+        selected_commodities = ''
+    elif len(selection) == 1:
+        selected_commodities = selection[0]
+    elif len(selection) == 2:
+        selected_commodities = f"{selection[0]} and {selection[1]}"
+    else:
+        selected_commodities = ', '.join(selection[:-1]) + f", and {selection[-1]}"
+
+
+    need_availability = st.selectbox('Need or Availability', ['weekly','monthly', 'quarterly', 'yearly'], index = 1)
+    growing_method = st.selectbox('Growing Method', ['Organic', 'Conventional', 'Does not matter'], index = 1)
+    
     system_prompt = bot_info['system_prompt']
     initial_text = bot_info['initial_text']
+
     
 
     
     if st.button('Click to Start or Restart'):
-        system_prompt = system_prompt.format(lead_first_name=lead_first_name, booking_link = booking_link, name=name)
+        system_prompt = system_prompt.format(need_availability = need_availability, growing_method = growing_method, name = name, buyer_or_supplier = buyer_or_supplier, selected_commodities = selected_commodities, lead_first_name=lead_first_name, booking_link = booking_link, name=name, buyer_company_name = buyer_company_name)
 
-        initial_text = initial_text.format(lead_first_name = lead_first_name, name=name)
+        initial_text = initial_text.format(lead_first_name = lead_first_name, name=name, selected_commodities = selected_commodities, need_availability = need_availability)
 
         st.write(initial_text)
 

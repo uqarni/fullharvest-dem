@@ -18,7 +18,7 @@ bot_info = data[1][0]
 
 def main():
     # Create a title for the chat interface
-    st.title("Full Harvest Bot (named Emily)")
+    st.title("Full Harvest Bot (named Harvey)")
     st.write("To test, first select some fields then click the button below.")
   
 

@@ -48,7 +48,7 @@ def ideator(messages, lead_dict_info):
     prompt = {'role': 'system', 'content': prompt}
     messages.insert(0,prompt)
     
-    print('total messages:\n',messages)
+    print('total messages:\n',str(messages))
     for i in range(5):
       try:
         key = os.environ.get("OPENAI_API_KEY")

@@ -11,8 +11,7 @@ urL: str = os.environ.get("SUPABASE_URL")
 key: str = os.environ.get("SUPABASE_KEY")
 
 supabase: Client = create_client(urL, key)
-data, count = supabase.table("bots_dev").select("*").eq("id", "emily").execute()
-bot_info = data[1][0]
+
 
 
 
@@ -44,13 +43,32 @@ def main():
     need_availability = st.selectbox('Need or Availability', ['weekly','monthly', 'quarterly', 'yearly'], index = 1)
     growing_method = st.selectbox('Growing Method', ['Organic', 'Conventional', 'Does not matter'], index = 1)
     
-    system_prompt = bot_info['system_prompt']
-    initial_text = bot_info['initial_text']
+    lead_dict_info = {
+        'name': name,
+        'booking_link': booking_link,
+        'buyer_or_supplier':  buyer_or_supplier,
+        'lead_first_name': lead_first_name,
+        'buyer_company_name': buyer_company_name,
+        'selected_commodities': selected_commodities,
+        'need_availability': need_availability,
+        'growing_method': growing_method
 
-    
+    }
 
     
     if st.button('Click to Start or Restart'):
+        if buyer_or_supplier == "Buyer":
+            bot = 'harvey_buyer'
+        if buyer_or_supplier == "Supplier":
+            bot = 'harvey_supplier'
+            
+        print(bot)
+        data, count = supabase.table("bots_dev").select("*").eq("id", bot).execute()   
+        bot_info = data[1][0]
+        
+        system_prompt = bot_info['system_prompt']
+        initial_text = bot_info['initial_text']
+
         system_prompt = system_prompt.format(need_availability = need_availability, growing_method = growing_method, buyer_or_supplier = buyer_or_supplier, selected_commodities = selected_commodities, lead_first_name=lead_first_name, booking_link = booking_link, name=name, buyer_company_name = buyer_company_name)
 
         initial_text = initial_text.format(lead_first_name = lead_first_name, name=name, selected_commodities = selected_commodities, need_availability = need_availability)
@@ -92,7 +110,7 @@ def main():
                 messages.append(json_obj)
 
         #generate OpenAI response
-        messages, count = ideator(messages)
+        messages, count = ideator(messages, lead_dict_info)
 
         #append to database
         with open('database.jsonl', 'a') as f:

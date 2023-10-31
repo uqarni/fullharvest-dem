@@ -1,3 +1,6 @@
 openai
 streamlit
 supabase
+langchain
+tiktoken
+faiss-cpu

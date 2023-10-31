@@ -1,0 +1,573 @@
+﻿Platform Demo Script
+
+
+Buyer Script:
+1. Signup flow: Very easy to signup up from our marketing site, we also ask about your commodities which informs commodity profile so we surface the best produce matches for you needs on the marketplace
+   1. Usually skip through the optional steps to get to the sign up form as quickly as possible
+2. Homepage: 2 paths to find the exact produce for your needs
+   1. Marketplace is the only produce marketplace for ALL grades with an expertise in imperfect and surplus produce. Allows you to buy with real time availability from a nationwide network of suppliers that allows you to make a purchase in just a few clicks. Supports spot, programs, and contracts.
+   2. Bid request is if you can’t find something on the marketplace or if you have a custom spec. you can create a bid request and receive custom responses from suppliers just for you. instead of reaching out to multiple different suppliers, we do that for you to get the most competitive responses
+   3. We recommend starting with our marketplace to check out existing availability and get a sense of the commodities supported by our network of farms.
+3. Marketplace: On our marketplace, we have a lot of tools to help narrow down our vast selection of product to help you find what you’re looking for quickly and easily 
+   1. Categories
+      1. Purchased: easily view your previous purchases and new availabilities to order again
+      2. Approved suppliers: view other listings from suppliers you’ve previously made purchases from
+      3. Recommended for you: listings we think you’ll like based on your commodity profile and saved preferences
+   2. Search: universal search
+   3. Then filter for different varieties types. Filter for organic. Sort by price. Filter for ready-to-buy
+   4. Update location and get real-time freight estimates based on actual locations and prices from our integrated shipping partners. This is based on the supplier and your delivery locations using our integration with our freight vendor partner
+   5. Watchlist items from filter results (note: not search) you’re looking for to get email reminders when they are available
+      1. Also allows you set your preferences once, and use the Watchlist as your default view if you prefer so you don’t always have to re-set your saved filter criteria
+4. PDP, cart and checkout: easily add to cart and checkout within a few clicks
+   1. PDP page: view all of the specific details of that items (e.g., tolerances are especially important for imperfect produce) and review any additional descriptive notes the supplier might have added
+   2. Share: Share listings with any coworkers you might have if you need to recap high level details around the produce
+   3. Multiple availabilities: you can easily add multiple dates across multiple availabilities so you can check out with all the loads that you need
+   4. Contracts: explore contracts to let us know details of the program and we can work with our suppliers to negotiate the best prices for you given the total volume
+5. Can’t find what you’re looking for?
+   1. Sold and expired listings and easily request a response from that specific supplier for that specific listing
+   2. Or start from scratch from a bid request which is recommended if you want to reach out to the max number of suppliers
+6. Bid request
+   1. Start from home dashboard and walk through overview of the spec request process - great for if you have unique specs (e.g., size or tolerances)
+      1. note: for the example, use a core commodity - lemon example - with a very specific spec like size
+      2. Another use case could be a commodity variety that we currently don’t have listed
+   2. View the bid request dashboard with organic and conventional options that have come back from suppliers for lemons. Once you have bids back, can easily view the description page for those listings, add to cart, and then check out.
+7. My orders [on demo]
+   1. Easily manage your current and past orders with fulfillment tracking
+   2. For contracts, easily manage orders with multiple shipments and confirm shipments that are upcoming by editing delivery date, quantities, and PO #'s when they were created up front and confirming those details based on your production or purchasing schedule
+   3. View actual vs. ordered quantities and remaining quantities
+   4. Easily reorder
+   5. Shipment status includes real-time order status from freight vendor if you’re using FH arranged delivery, so we update this when the driver has been assigned, when it’s at the pickup location, when it’s en-route to you, etc.
+8. Metrics [on demo]
+   1. Get data and pricing insights over the course of your buying history to inform future buying decisions
+   2. See both metrics by commodity and also total basket
+9. Food safety documents [on demo]
+   1. Centrally manage all your food safety documents
+   2. Easily upload any forms and we work with our farms to get them filled out
+   3. We let you know the name of the farm and the date upload so you know when it was last updated
+10. Profile settings
+   1. Your Commodities: Manage your commodities and buyer specs and easily create bid requests from your specs
+   2. Multi-user: easily collaborate with your team by working under the same company and sharing order management, shipment locations, etc.
+11. Next steps
+   1. Create a watch list
+   2. Create a bid request
+   3. Email over your specs, and we can update them to your commodity profile
+   4. Email over a list of items you’re looking for and we can help you start sourcing
+   5. Text us or Whatsapp us: if you need to contact us, use the chat for questions on the platform or message us directly via SMS or Whatsapp: +1 (814) 343-9273
+12. Feedback
+   1. What stood out as most valuable to you?
+   2. Anything that you were looking to see that we didn’t have?
+Supplier Script:
+Can use Suppliers R Us account on production
+1. Signup flow: High level info about commodities informs commodity profile and how we surface the best produce matches for you needs on the marketplace
+2. Post produce: fast supply listing flow walkthrough of the various fields
+   1. Required fields for posting are just commodity/ variety, grade, growing method, and shipping location: super fast to get listing visible in front of users
+   2. Review listing using the preview page
+   3. Required fields for ready-to-buy: pack and pack details, pricing & availability
+      1. availability: you can enter multiple availabilities so that this listing is essentially the spec, and whenever you have availability, you can easily add
+      2. add repeating availability
+   4. Optional fields: include things like photos, tolerances, etc
+      1. These fields are often important for buyers to actually check-out, so highly encouraged to add as much detail as possible
+3. 4. Sell tab: manage your listings
+   1. status: pending for when it’s been submitted, we’ll approve in usually a few hours if posted during business hours
+   2. labels: to help you differentiate
+   3. View product page
+   4. Edit: copy and edit (e.g., if you have produce out of a different location) you can start with the original and edit as needed
+5. Opportunities
+   1. My opportunities are ones flagged for you based off of your commodity profile (what you selected during the sign up flow)
+   2. All opportunities if you want to view all the opportunities submitted by buyers across the platform
+6. Orders tab: manage your orders
+7. Next steps
+   1. recommend posting produce
+   2. updating your commodity profile
+   3. browse opportunities to see if there’s anything that’s a good match
+
+
+
+
+________________
+
+
+Fast Supply Post
+* Overview and Introduction
+Context and Importance of the Task
+A big challenge of running a marketplace with real-time availability is that we need suppliers to post their listings with the latest information and details as they have it, and often times suppliers are getting this information gradually over time (e.g., might know overall volumes and details early on, but won’t have pictures until the crop is being harvested). Therefore, we want to make it as easy as possible for suppliers to get their listings up on the marketplace and update their listings as information changes, so buyers can get a more accurate and comprehensive view of available supply. In addition, we heard from a lot of suppliers as well that they do a lot of work on the go, and use their mobile devices for work.
+Feature Purpose
+As the name implies, this feature simplifies and makes it faster and easier for suppliers to get produce on the marketplace. We broke the listing fields into required fields that are needed for buyers to view the produce, and optional details that improve the listing. This makes is so that suppliers only need to provide four pieces of info to get their listing live on the marketplace and viewable to buyers. This ensures a more streamlined process to make it easier to get listings posted and improve real-time availability. This feature was also designed to be mobile-first.
+Benefits to the users
+* Suppliers have time-savings and improved flexibility in information submission which also makes it easier to have listings be more accurate when they can add fields sequentially and on the phone.
+* Buyers are able to view more listings (because suppliers can post more when it’s easier) with increased integrity of data.
+* Admins have time-savings when they can post listings on behalf of suppliers faster and easier, and also improved efficiency when supplier are able to do more posting themselves.
+*  :fast_forward:  Summary
+* As a supplier, go to the My Produce page and click Create Post.
+* The Post your Produce steps walk you through the only 4 required fields: commodity/variety, growing method, grade, and shipping location. After the required fields, buyers can now view the produce on the marketplace
+* Completing the remaining optional fields later leads to a supplier preview page, which is an amazing summary of the information they have provided and what still is still missing. This replicates what buyer’s see on the marketplace and highlights why certain info is important.
+* The Complete your Produce steps have a menu that guides you through all the optional fields, which can be completed at any time. At any time, there are buttons on the top right that allow you to navigate back to the My Listings page (listing management page) and go to the supplier preview page.
+* Listings must have at a minimum pricing, availability dates, quantity, and complete pack type information in order for the listing to be purchasable for buyers (ready-to-buy)
+Step-by-step Process
+Post your produce: required fields
+1. Impersonate the supplier. To access the fast supply post workflow, from the dashboard page go to Sell Produce. You can also go to the top navigation bar and go to Sell to access the My Produce Page, and clicking on Create Post. This will automatically launch you into the fast supply workflow.
+2. Post your Produce: first step is to choose the commodity and variety by using type-to-search and/or scroll.
+   1. If the supplier is creating the listing in response to a bid request, you can type in the bid request ID. You can also choose if you want to make the listing available on the market if now picked - which means that if the buyer does not accept the listing, it will become available on the broader marketplace for any other buyer to purchase.
+3. Post your Produce: second step is to choose the growing method - conventional or organic
+   1. You can also denote if the item is surplus or now. Surplus is produce that would not have been sold through any traditional channels. This is not shown to the buyer
+   2. Although the suppliers can choose to denote surplus here, we also ask for confirmation of this information on the farm PO where they can update this as needed, since we know that sometimes a supplier might not know that an item was surplus before the listings is sold.
+4. Post your Produce: third step is to choose the grade. Any grade that is selected besides USDA #1 grade, you can also add any off-grade notes to add any details about what makes the produce imperfect.
+5. Post your Produce: fourth step is to enter the shipping location. There are several options:
+   1. Suppliers that have existing addresses saved to their profile can choose those directly from their saved locations.
+   2. Suppliers can also add a new location by clicking the Add new location which will open up a pop for the supplier to enter the full address of the new location. This will also get added to the addresses saved to their profile.
+   3. If suppliers do not have the complete address and only know the shipping location city, they can also type in just the city, state location. This adds a placeholder location until the address can be completed later when an order is placed.
+6. Woohoo! That’s it! That completes all the required steps and the listing is now available on the marketplace. There are several optional fields that are still really important, though, so it’s important to complete this information on behalf of suppliers and/or to encourage suppliers to fill out this information.
+   1. Do it later: goes to the supplier view of the preview page.
+      1. For demo purposes, generally it’s recommended to show off the preview page right after the optional info is completed to highlight how you can see the missing info.
+   2. Let’s go: goes to the fast supply post menu
+Complete your post: optional fields
+1. Supplier view of the PDP (post preview page)
+   1. At any point after completing the optional steps, you can preview the post. Any incomplete info is indicated on the preview page in blue with an action to add this info, which will direct you to the exact step to populate that piece of info.
+   2. Note that the price here will be the supplier’s inputted cost and not the buyer price inclusive of margin.
+2. Fast supply post menu
+   1. The menu page is the navigation guide to complete the post. From here, you can easily go to any of the incomplete steps and add in the information in any order at any point in time.
+      1. Back to post preview at the top and the Back button at the bottom is always available to go to the supplier view of the PDP at any point
+      2. Cancel is also available to always go back to the My produce page
+      3. Status is indicated with items in green as done and items in orange as not yet started.
+         1. Note that some items show up in green (certifications, quality, and minimum order quantity) right from the start because it’s a valid and complete option to have none of the available options selected
+   2. Preview unavailable
+   3. Pack type: select the appropriate pack type
+3. Pack size: enter the details of the pack type, all of these fields are necessary for a buyer to make a purchase
+   1. A pack type must be chosen on the previous step in order to be able to complete this step. The pack size can be in pounds or count.
+4. Pricing & availability: enter current and future availabilities
+   1. At the top of the page, you can specify if the availability prices are in lbs or pack. This selection applies that to the price and quantities for ALL availabilities.
+   2. Each availability consists of the following info: earliest pickup date, latest pickup date, price, quantity and the listing type. Each listing type also has its own lead time.
+   3. Once you have a single availability filled out, you can repeat that listing according to a re-occurrence schedule by clicking the repeat icon.
+   4. This opens up a modal where you can apply the schedule you want to repeat the listing. Note that the end date for repeating is based on the earliest pick up date.
+   5.  
+   6.  
+   7. After setting up the repeating listings, each listing collapses so that you can review all the listings together
+5. Photo: photos are a very important part of what buyers look at to verify quality, so highly encourage listings to have photos. To upload a photo, you can either pick a saved photo or take a photo from your computer camera/ phone camera.
+   1. Once photos have been uploaded, you can view all the photos in a carousel view, delete existing photos, and continue adding more.
+6. Certifications: select any certifications that apply - GAP certified, GFSI certified, and/or USDA Organic certified
+   1. note that this step always shows as complete because have no certifications is a valid and complete option
+7. Country of origin: Choose by typing to search or scrolling through the available countries
+8. Sizing: Enter details for diameter, length, and pieces per pack
+9. Quality: select any quality details that apply - non-GMO, washed, PLU stickers
+   1. note that this step always shows as complete because have none of these quality details is a valid and complete option
+10. Tolerances: enter the tolerances for decay & mold, serious damage, and total defect. You can also include optional notes to provide more clarity on the tolerance ranges.
+   1. Note that if your produce was selected as USDA #1 grade, these tolerances will default to <1% decay & mold, <5% serious damage, and <10% serious defects and can not be edited since these are the usual standards for USDA #1.
+   2. If you want to include another tolerance, you can choose from the Add another Tolerance section. You can also choose a custom tolerance and enter the name/summary of that tolerance type.
+11. Notes: enter any other details that buyers should know about the produce condition, quality, and/or description.
+12. Programs & contracts: this is where you can denote if you are open to discussions about longer term programs/contracts for this listing. You can also choose a discount price, but this discount is not shown to the buyer.
+13. Minimum order quantity: enter the minimum quantity size for an order
+   1. Note: if you leave this question blank, we’ll default to 1 pallet
+My Listings navigation
+1. Quick actions: from your My Listings page, you can easily preview, edit, or expire you listing
+   1. The eye icon opens the supplier view of the PDP so you can preview the listing
+   2. The pencil icon opens up the edit options so you can edit the listing or copy and edit the listing
+      * Edit opens up the Menu page where you can choose the field in which you want to edit
+      * Copy and edit duplicates the listing and allows you to make edits to a new listing while keeping the original one intact. This can be useful to speed up the process to create new listings if many aspects are the same and just a few things are changing (e.g., same valencia orange produce but different sizes)
+   3. The x icon expires the listing
+2. Statuses: There are 4 statuses that are most commonly used for suppliers
+   1. Preliminary: listings has the required fields but still missing a lot of the optional fields
+      * These listings do not need admin approval
+   2. Ready-to-buy: listings as at least the minimum information for a buyer to check out, specifically includes pricing, availability dates, quantity, complete pack type information
+   3. Pending: listing has all the ready-to-buy information, but needs admin approval
+   4. Expired: listings is no longer available. You can see these using the View expired toggle that will show/hide the expired listings to the page
+ 
+Tips and Best Practices
+Tips
+* This workflow was designed to be mobile-first, so highly recommend sharing with suppliers that this process can be done on the phone. Specifically, it makes it a lot easier for suppliers to add a photo to their listings on the go and on their own.
+* Multiple availabilities:
+   * A best practice is to add new availabilities as you have additional quantities for new dates (rather than editing the previous availability). This allows a history, so Full Harvest has the data and suppliers can easily reference their prices over time.
+   * Using the reoccurrence tool is fast way to generate multiple availabilities
+   * To reduce confusion, it’s also best to not overlap availability dates (e.g., don’t have Jan 1 - Jan 15, and then Jan 10- Jan 15 because it can be confusing what price to use on the overlapping dates)
+   * To set up a repeat listing, the end date for the re-occurrence is based on the earliest pick up date.
+Common errors and challenges
+* When you copy and edit a listing, you’ll need to update the availability so that there are no availability dates that are in the past.
+* If you are ever troubleshooting an issue with availabilities with engineering, you may hear the term “harvest”. This is equivalent to a availability and is a reference to the name of the database table in which availability info is stored.
+* If a supplier posted the listing using just the city, state location and not the complete address, you’ll need to have the complete address in order to send the farm PO. You’ll see the following error message:
+
+
+
+
+Order Fullfillment
+* Overview and Introduction
+Context and Importance of the Task
+Especially with programs and contracts, we encourage admins to get these shipments created in advance so that you can “set it and forget it”, rather than creating each of the shipments individually as the details are provided by the buyer. When shipments are created far in advance, the system will automatically send an email to the buyer to confirm the details 2 weeks in advance of the pick up date. Especially as we continue to grow the program/contracts business, we want to automate as much of this follow up as possible so we don’t miss or lose track of shipments.
+Feature Purpose
+Buyers are able to confirm crucial details about upcoming shipments themselves. This reduces the burden on the admins to follow up buyers to get those shipment details and then manually create those orders later when the details are provided. All of it can be created up front with best-guess estimates, and the system helps do the follow up with buyers as the pick up dates get closer. It is also much faster and easier if the buyer confirms the shipment details themselves because they get a visual confirmation right away and can view the updated details within the platform on their own, rather than waiting for a FH admin.
+Benefits to the users
+Customers are able to confirm the details of an upcoming shipment faster themselves and receive immediate confirmation that it’s been processed and saved by Full Harvest. Customers can also ensure accuracy, rather than relying on someone in the middle to make sure the details were entered correctly.
+FH admins are able to redirect time to other activities, rather than confirming details for customers and remembering to follow up with customers about orders/shipments.
+Use Cases
+Scenarios to use
+* Use when buyers want to make edits up until the point in which the farm PO has been sent to the supplier. After that, only admins can make changes. 
+* Use when buyers want to change pickup/delivery dates, quantity, or the buyer internal PO #
+Scenarios not to use
+* Do not user when SKU details need to change (commodity/variety, grade, size, etc.) That would require adding a SKU and removing or making the quantity 0 on the original SKU.
+Step-by-step Process - Buyer edits
+1. When orders are created via the shipment management page and they are over 2 weeks from the pick up date, they are set to on hold on the OFD.
+2. When orders are 2 weeks out from the pick up date, the order moves from on hold to needs buyer confirmation status.
+3. Buyers then receive an email asking them to confirm their upcoming shipment
+   1. When there are multiple shipments that are still in the future, the email includes all the shipments so that the buyer can view each shipment within the context of all the upcoming shipments.
+4. When buyer click the Confirm Shipment button, they are directed to the My Orders Detail page where they can review the shipment details and make updates to My PO number, the delivery date, and the ordered quantity.
+5. Once they have reviewed and made updates to the order, they can click the confirm button. This will then update the status from Pending to Confirmed.
+6.  
+7. On the OFD, the Needs Buyer Confirmation banner goes away after the buyer has confirmed the order, and any edits the buyer made are reflected on the OFD card and the shipment table within the order.
+Step-by-step Process - Admin edits
+1. Admins can make edits to orders and shipments at any point in time once the SO has been confirmed.
+2. On the old OFD page, you can click the SO # to get to the sales order page. Then, on the sales order page, for the specific produce row that you want to edit, you can Edit Item
+3. On the new OFD page, you can click the SO #-Shipment # to get to the sales order page. Then, on the sales order page, you can click to edit items in the produce table and/or the freight table.
+4. In either of these cases - either the old OFD or the new OFD page - when you want to make edits, you must also provide a change reason and additional commentary as to why you are making the change.
+5. You can also choose to override buyer confirmation. This will bypass the flag that requires buyer confirmation. If you do not override this, the OFD card will have a Needs Buyer Confirmation flag added that lets you know that the order is basically on hold until the buyer confirms the shipment/order.
+6. If you choose not to override the buyer confirmation, you will also need to send updated email to the buyer. The buyer will get an email that they need to confirm the order.
+7. Once the buyer confirms the order, then the Needs buyer confirmation banner goes away.
+Tips and Best Practices
+Tips
+* Changes are only allowed to the shipment up until the farm PO is sent. Once the farm PO is sent, changes are locked.
+Common errors and challenges
+* Changes to the shipment are viewable in the freight flyout table.
+________________
+
+
+Order Again - Same Supplier
+*  Maryli Keil  :mag:   Overview and Introduction
+Context and Importance of the Task
+Often times buyers are ordering again the same commodities over and over again. It’s important to streamline this process because it’s one of the easiest self-service actions a buyer can do. No product discovery is needed; they already know what the listing they want and just need to let us know the date and quantity.
+Feature Purpose
+Rather than communicating the order again details to a FH sales team member and waiting for the admin to create the order on the buyer’s behalf, it is much faster and easier of the buyer to order again themselves. They get an email confirmation right away and can confirm the dates and quantities within the platform on their own, rather than waiting for feedback from a FH admin.
+Benefits to the users
+Customers are able to confirm the details of the order faster themselves.
+FH admins are able to redirect time to other activities.
+Use Cases
+Scenarios to use
+   * Use when buyers want to purchase a SKU that has been purchased in the past
+   * Use when buyers don’t have a consistent order cadence and/or are able to place orders in advance
+   * Use when buyers are loyal to supplier(s) that have previously fulfilled their orders
+Scenarios not to use
+   * Do not use when buyer is purchasing or interested in a similar or new SKU that has not been purchased in the past. Shop marketplace or use bid request instead. 
+   * Do not use when there is a consistent order cadence and can issue orders far in advance. Create all those future orders as shipments using the new draft orders page instead. 
+Step-by-step Process
+   1. Impersonate the buyer who is wanting to order again
+   2. Go to the My Orders page (https://app.fullharvest.com/orders/my_orders)
+   3. For orders with only a single item, you can click on the Order again button directly from the My Orders page. This will direct you to the PDP page.
+   4. For orders with multiple items on the order, clicking the Order again button will direct you to the My Order Details page where you can click the Order again button for the specific item you want to order again. This will direct you to the PDP page
+   5. Order again from either the My Orders page (for single item orders) or the My Order Details page (for multiple item orders) will direct to the PDP page.
+   6. If the item is available, you can add to cart and check out, just as with any other PDP item.
+   1. Note that you can confirm that the item is an order again orderord because the URL will have a #order-again at the end of the URL. This is only used for tracking purposes and is for reference only.
+   7. If the items is not available, you can click to Request this spec, which will direct you to create a bid request.
+   8. The bid request form will be pre-populated with all the information that we can pull from the listing, so it’s quick and easy for the buyer to finish their request. This will also automatically email the specific supplier (and send them a SMS notification if they have that enabled) that originally posted the produce for them to respond to the bid request. Buyers will receive a response to this bid request when the supplier has responded with a listing.
+ 
+Tips and Best Practices
+Tips
+   * If you know that a buyer often orders again, make sure there are multiple availabilities for the listings with future dates in advance of when the buyer might want to order again. It’s a much more seamless process to order again with the listing is available.
+   * You can check availability before encouraging order again by impersonating a supplier and going to the Orders tab to view the purchase order. From there, you can use the details of the order to help search for the right listing that needs to be update.
+   *    * Priority Listings Mailer
+   *  Maryli Keil Overview and Introduction
+Context and Importance of the Task
+Today, our sales team is extremely successful, in part because they are super proactive when reaching out to buyers. Supply team will receive good deals from suppliers with excess produce and then reach out to buyers who would be interested in this product. This is a great way for the sales team to build good relationships with buyers as they are always trying to find a good deal for our buyers.
+However, this process is currrently managed almost entirely offline via Slack (#prioritylistings channel) and then via email/text to communicate these deals to buyers.
+Feature Purpose
+The goal of the feature is to enable sales team to streamline this process and reach more buyers with more deals by having the system identify suitable buyers and to help generate a lot of the emails so that marketing doesn’t need to be done individually. Buyers that are recommended are buyers that 1) have purchased this commodity within the last year from Full Harvest and 2) Buyers that have this commodity saved to their commodity profile (note: that purchased items are default populated to their commodity profile)
+Benefits to the users
+      * Buyers: get emails about more deals that are relevant to them, which can help them save money
+      * Suppliers: get more sales because their deals get in front of more buyers
+      * Admins: save time by being able to blast out emails to multiple buyers at once and are shown a list of relevant buyers without needing to think of that list on their own
+ :bulb:  Use Cases
+Scenarios to use
+      * Use when the suppliers reach out to Full Harvest with a particularly good deal.
+      * Use when you want to share these good deals to lots of buyers all at once.
+      * Use to broadcast good deals to buyers who already have platform accounts set up.
+Scenarios not to use
+      * Do not use when the supplier’s good deal is reserved for a particular buyer.
+      * Do not use for prospective accounts where we don’t have the buyer emails set up in the platform.
+ :clipboard:  Step-by-step Process 
+      1. Supply Manager: When a supplier reaches out about a hot deal that they have going on, the first step is to make sure the listing gets posted on the marketplace using the Fast supply post SOP.
+      1. Either have the supplier post the listing themselves (can share the fast supply post SOP one-pager)
+      2. Or post the post the produce on the marketplace on behalf of the supplier.
+      1. Follow up with the supplier to make sure you have all the details for the posting to be ready-to-buy (all the pack type details, quantity available, price, availability dates, etc.)
+      3. When approving the listing, no need to set this is a priority listing because this will be instead done by each individual AM
+      2. Supply Manager: When the supply has been posted on the marketplace, post in Slack on the #prioritylistings Slack channel with the following information:
+      1. SKU name:
+      2. Marketplace ID (p-#):
+      3. Marketplace PDP Link:
+      3. Account Manager: as an admin, go to the Active Listings page and use the P-# identifier to search for the priority listing. Then click the more actions to Set as priority listing
+      1. Then, on the following page, check the Priority Listing? box
+      4. Account Manager: When the modal opens up, complete the fields in the Priority Listing Mailer
+      1. Account Manager: Choose your name from the Account Manager list
+      2. Recipient: Click Gather Recipients to populate a list of the buyers that are associated to your account and who have purchased this commodity in the last year
+      1. You can click the X next to each email to remove that buyer email’s address from the mailer as needed.
+      3. Message: A default message is populated, but you can customize this message to fit your personal voice and style
+      4. Availability: Choose the specific availability range that you’d like to market.
+      5. Send emails: Click the CTA for Send Emails to send out the emails
+      5. Account Manager: These emails will be individual emails that are sent from you, to email individual buyer, with you on BCC so that you can do any follow up replies.
+      1.  
+      6. Account Manager: go back to the Slack thread and respond to the Slack message from the Supply manager with a green check mark Slack emoji  :white_check_mark:   to indicate that you have send out the priority listing mailers to your relevant buyers
+      7. Account Manager: if the buyer has any questions about the listing or replies back with interest, tell them that they can go ahead and check out on their own!!
+ :star:   Tips and Best Practices
+Tips
+         * The supply must be posted on the marketplace for this email mailer to come from the system, so it’s best to follow up with the supplier to get all the details needed to make the listing ready-to-buy before the listing is posted on the marketplace.
+________________
+
+
+Share PDP
+         *  Maryli Keil  :mag:   Overview and Introduction
+Context and Importance of the Task
+In order to get sales, the team often has to proactively reach out to buyers to initiate the conversation. To start these conversations, the sales team typically has to manually type out offer details to provide quick information to buyers in order to entice them into learning more about the details.
+Feature Purpose
+The purpose of this feature is to more quickly enable sales to share PDP’s with buyers via email, text, or social media. They would be able to easily copy and paste the key details of the listing, including freight quotes, so that we they can encourage buyers to check out on the platform. This meant to be used for other use cases in addition to the priority listings workflow.
+Benefits to the users
+Customers are easily able to see the listing details and quickly access the PDP link to check out themselves rather than manually going back and forth with sales to provide the order details.
+Admins are able to more quickly share listings and get listings in front of more buyers to go after more sales.
+ :bulb:  Use Cases
+Scenarios to use
+            * Use as an admin when you are sharing one PDP with one or a small number of select buyers.
+            * Use as an admin when you are sharing PDPs via text or other channels outside of email.
+            * Use as an admin when you are sharing PDPs to prospective buyers who currently do not have a platform account set up.
+            * Use as an admin when you are trying to share listing details with freight estimates.
+            * Use as an admin to copy and paste multiple listing details into an email to share multiple produce items with one or a small number of buyers.
+Scenarios not to use
+            * Do not use when you are trying to share a hot pick listing to a lot of buyers via email. In this case, the priority listings workflow is more ideal because you can easily blast those emails out in bulk.
+ :clipboard:  Step-by-step Process
+            1. On the PDP (on both mobile and desktop), click the Share button at the bottom of the checkout modal.
+            2. This will open up a modal where you can choose the channel you wish to share to. On mobile, this will also allow you to share across other channels you have enabled on your mobile device.
+            3. Send email will populate a subject with your name in it as the recommender along with summary PDP information.
+            1. If you’ve selected freight on the PDP, the freight delivery location and estimated cost will also be included
+            2. If you’ve selected pickup on the PDP, the freight information will not be included
+            3.  
+            4. Copy link will also populate the PDP link, PDP summary details, and freight details (if delivery was selected)
+ :star:   Tips and Best Practices
+Tips
+            * This share workflow is only available for listings that are ready-to-buy that have complete pack details, price, and availability information. So those details must be added prior to sharing.
+            * If you are sharing via email, you can manually hyperlink the Commodity Profile and link to the PDP if you don’t want to show the full links.
+            * You can also copy the email information over to Salesloft if you prefer the analytics capabilities.
+            * ________________
+
+
+Approved Supplier
+
+
+ :mag:   Overview and Introduction
+Context and Importance of the Task
+Buyers often want to buy from suppliers that have already gone through the rigorous food safety requirements that they have. However, since we don’t make suppliers visible, it’s hard to know what other produce is available from suppliers they have previously purchased from - approved suppliers. 
+Feature Purpose
+This feature adds a new category for approved supplier that makes it easy for buyers to find other produce items from suppliers they have previously purchased from. There are also admin controls where admins can view approved suppliers and manually add suppliers to a blocklist.
+Benefits to the users
+Customers are able to easily view and purchase listings from their approved suppliers, increasing confidence that those listings are good next options.
+ :bulb:  Use Cases
+Scenarios to use
+            * Use when a buyer has previously purchased items from a supplier and may be interested in purchasing other SKUs from that same supplier.
+            * Use the manual admin controls when a buyer has indicated that they previously purchased from a supplier out of the platform and approves of that suppliers.
+            * Use the manual admin controls when a buyer has had a bad experience with a previous supplier and never wants to purchase from them again.
+Scenarios not to use
+            * Do not use if the buyer has very specific commodity-by-commodity food safety requirements. Make sure to call out that additional food documents may be required.
+ :clipboard:  Step-by-step Process - Admins
+            1. Go to the Admin portal and under Account Management, go to the Approved Supplier page
+            1.  
+            2. To view a buyer’s existing associations, search for the buyer and you’ll see all the approved suppliers and those that are on the blacklist have a red x on the black list column
+            1.  
+            3. To add a new supplier as either an approved or blacklisted supplier, click the New association button. On the modal, then enter the buyer account name and the farm name.
+            1. Directly click Approve this supplier button to add the supplier as an approved supplier.
+            2. Change the toggle for “Blacklist this farm for this buyer” to add this supplier on the blocklist. And then click the Approve this supplier button. Blacklisted suppliers will not show up with the seal.
+            3.  
+            4. After adding a supplier association, you can search for that buyer to double check that it has been added to their list.
+ :clipboard:  Step-by-step Process - Buyers
+            1. On the marketplace homepage for a buyer, buyers have a new category section for “Approved Suppliers”
+            1.  
+            2. Hovering on the approved supplier badge shows a tool tip describing that these listings are other listings from suppliers that they have previously purchased from.
+            1.  
+            3. On the PDP page for the listing, we also have a new Approved Supplier banner that also includes the tool tip upon hover.
+            1.  
+ :star:   Tips and Best Practices
+Tips
+            * As with other listings, ready-to-buy listings are generally more appealing that request for availability listings, so it’s always good to have lots of ready-to-buy listings for suppliers, because those listings help expand the number of SKU’s that a buyer is working with us on.
+            * \
+________________
+
+
+Bid Request
+            *  Maryli Keil  :mag:   Overview and Introduction
+Context and Importance of the Task
+The platform has two primary means in order for buyers to find what they are looking for - the marketplace for real-time availability that can be purchased within minutes and also the bid request process which is essentially a streamlined RFQ process. Note that this bid request (BR) process is also sometimes referred to as a NPR or new product request.
+Feature Purpose
+The bid request process is a great way to request produce specs that are very specific and get custom bids. Buyers can compare bid responses from multiple suppliers to streamline the procurement process.
+Benefits to the users
+Buyers can easily blast their request out to an entire network of suppliers rather than individually reaching out to potential suppliers one by one. Get more responses back for less effort, and more responses back will usually mean a better price!
+ :bulb:  Use Cases
+Scenarios to use
+               * Buyer is requesting something that is currently not on the marketplace
+               * Buyer is requesting something that requires a very specific spec requirement (e.g., specific size, tolerances or imperfection requirements)
+               * Buyer is requesting something for a future date where there are currently listings but nothing that’s available for the date they requested.
+               * Buyer is requesting a rare/ uncommon commodity where we have no available/unavailable listings. Note that BR is the recommended workflow, but may not be successful.
+               * Use the admin BR page when you don’t want the buyer to see the BR in their dashboard view, but you want to use it to gather quotes from suppliers.
+Scenarios not to use
+               * Buyer is wanting something that is a common item that is currently available on the marketplace.
+ :clipboard:  Step-by-step Process: Buyer Bid Request Creation
+               1. Buyers can access the bid request creation form either through the “Get Started” on their dashboard under Create a Bid Request, or via the “Shop Produce” → “Create a Bid Request” button
+               2. This will take buyers to the new bid request form, and a new bid request can be created in 4 steps:
+               1. Complete the specifications: commodity, variety, growing method, grades (multi-select), pack type (multi-select), and additional spec requirements
+               2. Complete the price quantity: quantity, target price (specific value or price range)
+               3. Complete the logistics: delivery vs. pick up, delivery location, date product is needed by, end use, comments/special instructions, and the deadline for suppliers to respond by.
+               4. Review the details of the bid request form by confirming all details look as expected and that there weren’t any errors while filling out the form.
+               3. Buyers will then get an email confirmation with the details of their bid request
+ :clipboard:  Step-by-step Process: Admins broadcast
+               1. When a buyer has created a new bid request, FH admins will receive a Slack notification on the #npr Slack channel
+               2. Admins can also create a bid request via the admin bid request page, however this is not recommended (see tips and common errors/challenges section below)
+               1.  
+               3. On the admin bid request page, click into the specific bid request that you want to broadcast to suppliers.
+               4. Within the BR admin outreach page, you can add some priority tags, status, and assign it to someone. All of these are purely internal tags that get added to the admin BR dashboard view, so all of these fields are optional to help you manage BR’s that come through.
+               1.  
+               5. On this page, the first step is to review the buyer’s bid request and make sure that everything makes sense. If you something is unclear or you need clarification from the buyer, you can follow up with them offline via email.
+               6. Note: email template for this clarification question can be found here.
+               1.  
+               7. The second step is to check what is live on the marketplace to see if their request matches any live posts. In most cases, they will be creating a BR because they didn’t find a match on the marketplace, but it’s always good to double check.
+               1. If there is a good match for something that is on the marketplace, use the Share PDP SOP to send the buyer that relevant listing for them to check out on their own.
+               8. The third step is to calculate the target farm cost. Note that often times this is not possible to calculate because often times buyers are not upfront with their target price.
+               1.  
+               9. The fourth step is to select contacts that are pulled from the platform and Salesforce to broadcast the opportunity to. This email list has two tabs:
+               1. Marketplace suppliers has all the suppliers that have marketplace platform accounts created
+               1. These include the profile contact and the CC’ed farm contact
+               2. Suppliers are included here when they have the commodity saved to their commodity profile (regardless if they have an active listing or if they've ever posted that listing)
+               3. This only includes active suppliers (not pending) and there is no numerical cap to the suppliers shown here
+               2. For the SFDC suppliers, we show all SFDC contacts and leads that do not have platform accounts  that have that commodity saved as a target product (platform account suppliers are removed from this tab since they are already in the marketplace suppliers tab)
+               3. Because this list is so broad, use the filters for job title, company, region, division, and state to help narrow down contacts to those that are most relevant. Each of the filters supports type to search as well.
+               4. As a best practice, it’s recommended for farms that seem like a good fit to send the opportunity to 1-2 contacts that are responsible for sales from the SFDC suppliers tab. Be sure to look at the the titles, as often times the CEO/President is not a good contact if there are others more involved in sales.
+               10. The fifth step is to choose the account manager (i.e., yourself). This will populate the email signature at the bottom of the email to suppliers.
+               11. The 6th step is to preview the email. This will pull up a preview of the email that you can review and make sure everything looks good before sending.
+               1.  
+               12. Send the email once you have reviewed.
+ :clipboard:  Step-by-step Process: Supplier and Buyer responses
+               1. Suppliers will receive an email for a quote request when admins have chosen to broadcast to them.
+               2. Suppliers can then respond to the bid request by posting a produce item. On the supply posting flow, they can include the BR request ID.
+               3. Suppliers can also browse bid responses via their Opportunities page
+               1. My Opportunities are the ones that have been shared specifically for them
+               2. All Opportunities are all the open bid requests across the platform.
+               4. When suppliers respond back to a listing, buyers get an email notification
+               5. Buyers can review their bid requests at any time in their Bid Request Dashboard
+               6. When a buyer clicks into a single bid request, they can view all the responses that have been sent back to them.
+               7. If the bid response looks good, they can click “View” or click on the link to the product page to be taken to the PDP. There, they can easily add the item to the cart (just as with any other listing) and then check out.
+ :star:   Tips and Best Practices
+Tips
+               * If you are creating a bid request on behalf of a buyer, impersonate the buyer when you want the bid request to show up in their bid request dashboard. Whereas, if you want to create bid request for internal admin use only and you do not want the BR to show up in the buyer’s dashboard, then create it in the Admin bid request page (however they will still get an email for the BR)
+
+
+Availability Management
+
+
+ :mag:   Overview and Introduction
+Context and Importance of the Task
+With the roll-out of fast supply post and multiple availabilities, it is easier than ever for suppliers to update their own listings. A key value of our marketplace is to give access to more supply options for our buyers, so it’s critical that we have real-time availability for buyers to browse and check out with live on the marketplace at all times.
+Feature Purpose
+The goal of updating and managing availabilities is to make it easy for suppliers to do the legwork to post a listing once and then continue to update the availability over the course of the season as there are new harvests.
+Benefits to the users
+For suppliers, it’s faster and easier to add and create new availabilities, and more listings on the marketplaces means getting in front of more buyers to generate more sales.
+For buyers, they are able to see a wider selection of available listings when suppliers keep them up to date, so they can make purchases through the marketplace.
+For admins, the more that suppliers do this process on their own, the less than admins have to do to manage these on their own time.
+ :bulb:  Use Cases
+Scenarios to use
+               * Suppliers to add new availability when they know about future upcoming harvests or volumes.
+               * Suppliers to upload the volumes for the entire duration of contracts and programs.
+               * Suppliers to expire availabilities that have been sold outside of Full Harvest to keep listings up to date.
+               * Suppliers to edit existing availabilities when there are changes to the existing dates after posting.
+Scenarios not to use
+               * Do not edit historical listings that are completely expired. Best is to create a new availability.
+ :clipboard:  Step-by-step Process
+               1. As a supplier, go to the Sell tab and then go to the specific listing where you want to update the availabilities and click the edit button
+               1.  
+               2. Edit the post
+               3. Go to the pricing & availability step
+               4. Click the add more availability button and add the availability details, including earliest and latest pickup, price, quantity, listing type and lead time. Click update post when you’re done.
+               5. You can also repeat a listing by clicking the repeat button to the right of the listing number
+               1. This will open up a modal where you enter the frequency in which you want to repeat the listing and the end date. Note that the end date will repeat until that date for the earliest pick up date. (e.g., If you want to repeat a Sept 1 - Sept 5 listing one time each week, then you will take the pick up date + 7 days as the end date)
+ 
+ :star:   Tips and Best Practices
+Tips
+               * Best practice is to add new availabilities via the edit functionality, rather than editing directly in the My Listings table
+Common errors and challenges
+               * Right now if you edit the availability on the My Listings page directly in the table, it maintains the sold quantity against the total availability
+               * For example, if you had an availability for Sept 17 - Sept 23 for 40,000 lbs and then 40,000 lbs was sold, then on the marketplace this shows as having 0 availability quantity against those dates.
+               * If you then go and edit that availability on the table below to update as Sept 23 - Sept 30 to try and extend it out for another week with the intent that there is now an additional 40,000 lbs for the new week that you added, this will still show up on the market as having 0 availability quantity because the system is still keeping track of the 40,000lb that were originally sold.
+               *  
+Future enhancements
+               * Updates the My Listings page where you can add a new availability directly from the table on the page instead of needing to edit via the pricing & availability page
+               * Updates to the My Listings page where if you edit the date or the quantity, it resets the quantity availability, and we also show the quantity available on this page (not just total quantity).
+________________
+
+
+Buyer and Supplier Platform Onboarding
+
+
+ :mag:   Overview and Introduction
+Context and Importance of the Task
+As a part of buyer and supplier onboarding, the sales/supply team has their own process in Docusign/ SFDC to get customers onboarded to our paperwork. Beyond those onboarding tasks, there are also platform onboarding tasks so that they are set up with the basics on the marketplace.
+Feature Purpose
+The goal of this SOP is to document the standard initial steps that buyers and suppliers should be doing once they have their marketplace logins created.
+Benefits to the users
+Buyers and suppliers are exposed to some of the core actions of the marketplace so that they gain awareness of the marketplace capabilities.
+Admins have a clear understanding of initial steps that customers should be taking on as initial steps to engage in the marketplace.
+ :bulb:  Use Cases
+Scenarios to use
+               * Use when buyers or suppliers have just created their marketplace logins but haven’t started engaging with the platform yet.
+               * Use after you have given a demo to a buyer or supplier so that they can start engaging with the platform themselves.
+               * Use in conjunction with the out of platform onboarding processes.
+Scenarios not to use
+               * Do not use when a buyer or supplier is not a good match for the marketplace.
+ :clipboard:  Step-by-step Process: Buyer Platform Onboarding
+Buyer platform onboarding consists of 4 key steps: 1) complete the profile 2) set up a watch list 3) set up the commodity profile 4) enable freight
+               1. Complete the profile
+               1. When the buyer first logs in to their profile, there is a banner for them to complete their profile. Click the Profile button.
+               2. Complete the buyer contact details by adding the buyer contact name, email, phone, and also the email CC.
+               3. Complete the accounting contact details by adding the accounting contact name, email, email CC, phone, and billing address.
+               4. Complete the delivery information
+               1. First click Add Location to add a new location
+               2. Complete the new location setup and adding the shipping schedule
+               3.  
+               4.  
+               2. Set up a watch list
+               1. Go to the marketplace and use filters to set up the criteria you want for the watchlist
+               2. Once you have the filters set up that you want, click “Save watchlist”
+               3. Then you can enter a name for your watchlist and set your notification preferences
+               1.  
+               4. You can then view your watchlists in the Watchlist tab
+               1.  
+               3. Set up the commodity profile
+               1. Go to the User profile
+               1.  
+               2. And then go to Your Commodities
+               3. Add Commodity to add a new commodity
+               1. This will open up the same commodity selection as during the sign-up flow, so new commodities can be added. Any commodities that are not on the main list can be added using the “+Add Commodities button” below all the icons
+               2.  
+               4. Once a commodity has been added, a new card will appear on the Commodity Profile dashboard page. To add additional details to that commodity, click the Finish profile button
+               5.  
+               6. Within the commodity profile details page, buyers can fill our their commodity info, timeline and volume, price, logistic preferences, photos, and spec documentation.
+               1. When all fields have been populated, the profile strength will be set to 100%.
+               2.  
+               4. Enable freight by selecting your delivery location
+               1. On the marketplace, at the top in the navigation bar, enable freight by choosing delivery and select the previously saved shipping address. This will expose freight estimates on the listings page so customers are able to see real-time freight estimates from Zero Broker.
+ :clipboard:  Step-by-step Process: Supplier Platform Onboarding
+Supplier platform onboarding consists of 2 key steps: 1) complete the profile 2) set up the commodity profile 3) Post first listing
+               1. Complete the profile
+               1. When the supplier first logs in to their profile, there is a call to action to verify delivery details on their dashboard. In addition, when clicking their profile icon, it calls out that their profile is missing information. Click the verify now button.
+               2. Complete the shipping information
+               1. First click Add Location to add a new location
+               2. Complete the new location setup and adding the shipping schedule
+               3.  
+               3. Complete the farm contact details by adding the buyer contact name, email, phone, and also the email CC.
+               1.  
+               4. Complete the accounting contact details by adding the accounting contact name, email, email CC, phone, and billing address.
+               5.  
+               2. Set up the commodity profile
+               1. Go to the User profile
+               2. And then go to Your Commodities
+               1.  
+               3. Add Commodity to add a new commodity
+               1. This will open up the same commodity selection as during the sign-up flow, so new commodities can be added. Any commodities that are not on the main list can be added using the “+Add Commodities button” below all the icons
+               2.  
+               4. Once a commodity has been added, a new card will appear on the Commodity Profile dashboard page. To add additional details to that commodity, click the Finish profile button
+               5.  
+               6. Within the commodity profile details page, suppliers can fill our their commodity info, timeline and volume, price and packing, shipping info, photos, and spec documentation.
+               1. When all fields have been populated, the profile strength will be set to 100%.
+               3. Post first listing
+               1. See Fast Supply Post SOP for additional details on the process of posting supply listings.
+               * Common errors and challenges
+               * Watchlist list must be created using filters (not search).
+Future enhancements
+               * Shipping info should be marked as complete if one location is fully complete. Right now, it’s showing that your profile is incomplete if you have one location that is only partially complete.
+               * We’re also working on revamping our supplier and buyer onboarding emails to include these same steps, and these emails will be sent from SFDC marketing cloud.

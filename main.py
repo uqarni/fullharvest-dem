@@ -25,7 +25,7 @@ def main():
     booking_link = st.text_input('Booking Link', value = 'fullharvestbookinglink.com')
     buyer_or_supplier = st.selectbox('Buyer or Supplier', ['Buyer', 'Supplier'], index = 0)
     lead_first_name = st.text_input('Lead First Name', value = 'John')
-    buyer_company_name = st.text_input('Buyer Company Name', value = 'Appleseed Co')
+    buyer_company_name = st.text_input('Company Name', value = 'Appleseed Co')
 
     options = ['Tomatoes', 'Blueberries', 'Garlic', 'Bananas', 'Onions']
     selection = st.multiselect("Choose your options", options)

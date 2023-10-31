@@ -28,7 +28,6 @@ def find_txt_examples(query, k=8):
     for doc in docs:
        examples += f'\n\nSNIPPET {i}' + doc.page_content
        i+=1
-    print(examples)
     return examples
 
 
@@ -49,6 +48,7 @@ def ideator(messages, lead_dict_info):
     prompt = {'role': 'system', 'content': prompt}
     messages.insert(0,prompt)
     
+    print('total messages:\n',messages)
     for i in range(5):
       try:
         key = os.environ.get("OPENAI_API_KEY")
@@ -110,7 +110,7 @@ def ideator(messages, lead_dict_info):
            "content": section
            }
         messages.append(section)
-
+    
     return messages, count
   
 

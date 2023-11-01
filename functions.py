@@ -105,6 +105,7 @@ def ideator(messages, lead_dict_info):
       
         return strings
 
+    response = add_space_after_url(response)
     split_response = split_sms(response)
     count = len(split_response)
     for section in split_response:
@@ -140,7 +141,6 @@ def create_produce_link_url(buyer_or_supplier, inputs):
   return search_produce_link
 
 
-   
    
 
    

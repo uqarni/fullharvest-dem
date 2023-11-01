@@ -108,6 +108,7 @@ def ideator(messages, lead_dict_info):
     split_response = split_sms(response)
     count = len(split_response)
     for section in split_response:
+        section = add_space_after_url(section)
         section = {
            "role": "assistant", 
            "content": section
@@ -117,6 +118,15 @@ def ideator(messages, lead_dict_info):
     return messages, count
   
 
+def add_space_after_url(s):
+    words = s.split()
+    for i, word in enumerate(words):
+        if word.startswith('http://') or word.startswith('https://'):
+            if word[-1] in '.,!?;:':
+                words[i] = word[:-1] + ' ' + word[-1] + ' '
+            else:
+                words[i] = word + ' '
+    return ' '.join(words)
 
 
 def create_produce_link_url(buyer_or_supplier, inputs):

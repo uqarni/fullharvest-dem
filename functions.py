@@ -118,3 +118,19 @@ def ideator(messages, lead_dict_info):
   
 
 
+
+def create_produce_link_url(buyer_or_supplier, inputs):
+  to_append = ''
+  for input in inputs:
+    to_append += f'&commodity{inputs}'
+
+  base = 'https://app.fullharvest.com/listings?anonymous=true'
+  search_produce_link = base + to_append
+
+  return search_produce_link
+
+
+   
+   
+
+   

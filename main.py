@@ -1,5 +1,5 @@
 import streamlit as st
-from functions import ideator
+from functions import ideator, create_produce_link_url
 import json
 import os
 import sys
@@ -42,7 +42,9 @@ def main():
 
     need_availability = st.selectbox('Need or Availability', ['weekly','monthly', 'quarterly', 'yearly'], index = 1)
     growing_method = st.selectbox('Growing Method', ['Organic', 'Conventional', 'Does not matter'], index = 1)
-    
+    search_produce_link = "https://app.fullharvest.com/listings/?anonymous=true"
+    bid_request_link = 'https://app.fullharvest.com/bid_requests/new/specs'
+
     lead_dict_info = {
         'name': name,
         'booking_link': booking_link,
@@ -69,7 +71,7 @@ def main():
         system_prompt = bot_info['system_prompt']
         initial_text = bot_info['initial_text']
 
-        system_prompt = system_prompt.format(need_availability = need_availability, growing_method = growing_method, buyer_or_supplier = buyer_or_supplier, selected_commodities = selected_commodities, lead_first_name=lead_first_name, booking_link = booking_link, name=name, buyer_company_name = buyer_company_name)
+        system_prompt = system_prompt.format(bid_request_link = bid_request_link, search_produce_link = search_produce_link, need_availability = need_availability, growing_method = growing_method, buyer_or_supplier = buyer_or_supplier, selected_commodities = selected_commodities, lead_first_name=lead_first_name, booking_link = booking_link, name=name, buyer_company_name = buyer_company_name)
 
         initial_text = initial_text.format(lead_first_name = lead_first_name, name=name, selected_commodities = selected_commodities, need_availability = need_availability)
 

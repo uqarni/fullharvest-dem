@@ -1,4 +1,4 @@
-import openai
+import openai as op
 import os
 import re
 import random
@@ -7,7 +7,7 @@ import random
 import time
 
 #examples puller
-from langchain.embeddings.openai import OpenAIEmbeddings
+from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 from langchain.document_loaders import TextLoader
 from langchain.text_splitter import RecursiveCharacterTextSplitter
@@ -55,9 +55,9 @@ def ideator(messages, lead_dict_info):
     for i in range(5):
       try:
         key = os.environ.get("OPENAI_API_KEY")
-        openai.api_key = key
+        op.api_key = key
     
-        result = openai.ChatCompletion.create(
+        result = op.ChatCompletion.create(
           model="gpt-4",
           messages= messages,
           max_tokens = 500,

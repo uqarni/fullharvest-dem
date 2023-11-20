@@ -69,7 +69,10 @@ def main():
         bot_info = data[1][0]
         
         system_prompt = bot_info['system_prompt']
-        initial_text = bot_info['initial_text']
+        if len(selection) > 0:
+            initial_text = bot_info['initial_text']
+        else:
+            initial_text = "Hey, this is {name} from Full Harvest. Just saw you signed up on our platform. Am I speaking with {lead_first_name}?"
 
         system_prompt = system_prompt.format(bid_request_link = bid_request_link, search_produce_link = search_produce_link, need_availability = need_availability, growing_method = growing_method, buyer_or_supplier = buyer_or_supplier, selected_commodities = selected_commodities, lead_first_name=lead_first_name, booking_link = booking_link, name=name, buyer_company_name = buyer_company_name)
 
